@@ -12,8 +12,9 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+  /*background: url("../images/transparency.png");
+  background-color: transparent !important;*/
+  background-color: #FFFFFF !important;
   background-size: cover;
   z-index: 10;
 }
@@ -43,10 +44,12 @@ p {
 
 /* Navigation links */
 .customNav a {
-  color: white !important;
+  color: #000000 !important;
 }
 .navCTA {
   font-size: 15px;
+  background-color: #FFFFFF;
+  border-color: #E13836;
 }
 
 /* Jumbotron  */
