@@ -1,9 +1,9 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation bar */
@@ -12,9 +12,8 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
-  /*background: url("../images/transparency.png");
-  background-color: transparent !important;*/
-  background-color: #FFFFFF !important;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
   background-size: cover;
   z-index: 10;
 }
@@ -24,7 +23,7 @@ p {
 }
 .navbar-brand img {
   padding-right: 15px;
-  width: 300px;
+  width: 65px;
 }
 .nav-item {
   margin: 0px 15px;
@@ -44,12 +43,10 @@ p {
 
 /* Navigation links */
 .customNav a {
-  color: #000000 !important;
+  color: white !important;
 }
 .navCTA {
   font-size: 15px;
-  background-color: #FFFFFF;
-  border-color: #E13836;
 }
 
 /* Jumbotron  */
@@ -71,6 +68,20 @@ p {
   color: white;
   text-align: center;
 }
+
+
+/* Slider */
+.carousel-callout {
+    height: calc(100vh - 25px);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
 
 /* Cards */
 .content {
