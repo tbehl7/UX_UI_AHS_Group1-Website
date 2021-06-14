@@ -1,6 +1,7 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #E13836;
 }
 p {
   font-family: 'Jura', sans-serif;
@@ -32,14 +33,15 @@ p {
 
 /* Navigation dropdown menu */
 .dropdown-menu {
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+  /*background: url("../images/transparency.png");
+  background-color: transparent !important;*/
+  background-color: #FFFFFF;
   background-size: cover;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background: black;
+    background: #E13836;
 }
 
 /* Navigation links */
@@ -72,6 +74,56 @@ p {
   text-align: center;
 }
 
+.searchSection{
+  width: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  /*margin: 15px 200px;*/
+}
+
+.searchBox{
+  color:#6b6666;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 90px;
+  width: 75%;
+  margin-right: 15px;
+}
+
+.searchButton{
+  color:#000000;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.searchButton:hover{
+  background-image: #000000;
+  color:#E13836;
+}
+
+.titleSection{
+  text-align: center;
+}
+
+.allPets{
+  color: #E13836;
+  font-size: 36px;
+  border: 2px;
+  background-color: transparent;
+  padding-right: 50px;
+}
+
+.fosterFirst{
+  color:#E13836;
+  font-size: 36px;
+  border: 2px;
+  background-color: transparent;
+  padding-left: 50px;
+}
+
 /* Cards */
 .content {
   padding: 50px;
@@ -84,6 +136,28 @@ p {
 }
 .cardContainer {
   text-align: center;
+}
+hr{
+  height:4px;
+  color:#E13836;
+  width: 85%;
+}
+
+.allPetsSection{
+  text-align: center;
+}
+
+.seeAllPetsButton{
+  color:#000000;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.seeAllPetsButton:hover{
+  background-image: #000000;
+  color:#E13836;
 }
 
 /* Content */
@@ -100,6 +174,44 @@ p {
 .valueProp {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.blogContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary{
+  background-color: transparent;
+  color: #E13836;
+  border-color: #E13836;
+}
+
+h4{
+  font-size: 32px;
+  color:#FFFFFF;
+  background-color: #E13836;
+  text-align: center;
+  padding: 25px 25px;
+}
+
+.corporateLogos{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.vca{
+  margin: 25px;
+}
+
+.purina{
+  margin: 50px;
+}
+
+.petSmart{
+  margin: 25px;
 }
 
 /* Footer */
@@ -143,4 +255,6 @@ footer {
 }
 .card {
   margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 30px 20px 0 rgba(0, 0, 0, 0.19);
 }
